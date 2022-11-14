@@ -1,0 +1,16 @@
+.entries{
+    display: flex;
+    flex-direction: column;
+    float: left;
+}
+
+.categoryHeader{
+    font-size: 50px;
+    background-color:  rgb(103, 43, 245);
+    border: 3px solid black;
+    color: white;
+    font-weight: 900;
+
+    /* border-style: solid;
+    border-color: rgb(230, 186, 54); */
+}

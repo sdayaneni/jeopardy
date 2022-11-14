@@ -1,0 +1,16 @@
+.scoreSection{
+    width: 100vw;
+    height: 10vh;
+
+    right: 0em;
+    bottom: 0.9em;
+
+    text-align: center;
+
+    background-color: rgb(42, 42, 42);
+    color: white;
+    font-size: 2.5em;
+    position: absolute;
+    z-index: 3;
+    box-shadow: 0em 0em 0.1em black;
+}

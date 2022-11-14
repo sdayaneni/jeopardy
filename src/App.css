@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+.App {
+  text-align: center;
+  font-family: 'Anton', sans-serif;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.questionScreen {
+  background-color:  rgb(103, 43, 245);
+  visibility: hidden;
+  align-items: center;
+  top: 0;
+  left: 0;
+  position: fixed;
+  width: 100%;
+  min-height: 100vh;
+  display: block;
+  z-index: 200;
+  margin: 0 auto 16px;
+  text-align: center;
+  /* height: 100vh;
+  width: 100vw; */
+
+}
+
+.question {
+  color: white;
+  justify-content: center;
+  padding-top: 15vh;
+  display: flex;
+  flex-direction: row;
+  font-size: 100px;
+}
+
+.answerSection {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  padding-left: 38%;
+}
+
+.answerField{
+  height: 50px;
+  width: 300px;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Anton', sans-serif;
+}
+
+.answerButton{
+  height: 56px;
+  width: 200px;
+  font-size: 20px;
+  font-family: 'Anton', sans-serif;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border-radius: 10px;
+}
+
+.answerButton:hover{
+  box-shadow: 0 0 100px skyblue;
+  background-color: rgb(77, 13, 227);
+  color: rgb(230, 186, 54);
+}
+
+.allScores{
+  display: block;
+}

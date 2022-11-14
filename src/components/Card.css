@@ -1,0 +1,28 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+.firstScreenCard{
+    background-color: rgb(103, 43, 245);
+    align-items: center;
+    font-size: 80px;
+    color: rgb(230, 186, 54);
+    font-weight: 900;
+    font-family: 'Anton', sans-serif;
+
+    width: 20vw;
+    height: 15vh;
+    border: 5px solid black;
+    /* border-radius: 20px; */
+    justify-content: center;
+    /* display: flex; */
+}
+
+.firstScreenCard:hover {
+    box-shadow: 0 0 100px skyblue;
+    background-color: rgb(77, 13, 227);
+    transform: scale(1.1);
+}
+
+.firstScreenCard:disabled {
+    background-color: black;
+    color:black
+}
